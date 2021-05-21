@@ -13,6 +13,8 @@
 		C867AB912657B28600A6E4AD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C867AB902657B28600A6E4AD /* Assets.xcassets */; };
 		C867AB942657B28600A6E4AD /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C867AB932657B28600A6E4AD /* Preview Assets.xcassets */; };
 		C867AB972657B28600A6E4AD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C867AB952657B28600A6E4AD /* LaunchScreen.storyboard */; };
+		C867AB9F2657B34400A6E4AD /* steve01.wav in Resources */ = {isa = PBXBuildFile; fileRef = C867AB9E2657B34400A6E4AD /* steve01.wav */; };
+		C867ABA22657BA8200A6E4AD /* woz01.wav in Resources */ = {isa = PBXBuildFile; fileRef = C867ABA12657BA8200A6E4AD /* woz01.wav */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		C867AB932657B28600A6E4AD /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		C867AB962657B28600A6E4AD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C867AB982657B28600A6E4AD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C867AB9E2657B34400A6E4AD /* steve01.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = steve01.wav; sourceTree = "<group>"; };
+		C867ABA12657BA8200A6E4AD /* woz01.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = woz01.wav; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +66,7 @@
 				C867AB902657B28600A6E4AD /* Assets.xcassets */,
 				C867AB952657B28600A6E4AD /* LaunchScreen.storyboard */,
 				C867AB982657B28600A6E4AD /* Info.plist */,
+				C867ABA02657B34600A6E4AD /* Audio */,
 				C867AB922657B28600A6E4AD /* Preview Content */,
 			);
 			path = RealityListener;
@@ -73,6 +78,15 @@
 				C867AB932657B28600A6E4AD /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		C867ABA02657B34600A6E4AD /* Audio */ = {
+			isa = PBXGroup;
+			children = (
+				C867AB9E2657B34400A6E4AD /* steve01.wav */,
+				C867ABA12657BA8200A6E4AD /* woz01.wav */,
+			);
+			path = Audio;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -135,6 +149,8 @@
 				C867AB972657B28600A6E4AD /* LaunchScreen.storyboard in Resources */,
 				C867AB942657B28600A6E4AD /* Preview Assets.xcassets in Resources */,
 				C867AB912657B28600A6E4AD /* Assets.xcassets in Resources */,
+				C867AB9F2657B34400A6E4AD /* steve01.wav in Resources */,
+				C867ABA22657BA8200A6E4AD /* woz01.wav in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -291,6 +307,7 @@
 				DEVELOPMENT_TEAM = UDGLB23X37;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = RealityListener/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -312,6 +329,7 @@
 				DEVELOPMENT_TEAM = UDGLB23X37;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = RealityListener/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
